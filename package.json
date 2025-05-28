@@ -1,0 +1,59 @@
+{
+  "name": "@n0nb3br/react-use-scroll-sync",
+  "version": "0.1.0",
+  "description": "A React hook that synchronizes scrolling across multiple elements.",
+  "author": "rogeriolaa",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriolaa/react-use-scroll-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogeriolaa/react-use-scroll-sync/issues"
+  },
+  "homepage": "https://github.com/rogeriolaa/react-use-scroll-sync#readme",
+  "keywords": [
+    "react",
+    "hook",
+    "scroll",
+    "sync",
+    "scroll-sync",
+    "use-scroll-sync",
+    "react-component"
+  ],
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@types/react": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "eslint": "^9.27.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "react": "^19.1.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
