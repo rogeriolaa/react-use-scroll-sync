@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@n0nb3br/react-use-scroll-sync": "link:..",
+    "@n0n3br/react-use-scroll-sync": "link:..",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

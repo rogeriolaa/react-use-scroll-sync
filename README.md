@@ -1,4 +1,4 @@
-# @n0nb3br/react-use-scroll-sync
+# @n0n3br/react-use-scroll-sync
 
 A React hook that synchronizes scrolling across multiple elements. Useful for side-by-side comparisons, split views, or any scenario where synchronized scrolling enhances user experience.
 
@@ -16,26 +16,26 @@ A React hook that synchronizes scrolling across multiple elements. Useful for si
 Using pnpm:
 
 ```bash
-pnpm add @n0nb3br/react-use-scroll-sync
+pnpm add @n0n3br/react-use-scroll-sync
 ```
 
 Using npm:
 
 ```bash
-npm install @n0nb3br/react-use-scroll-sync
+npm install @n0n3br/react-use-scroll-sync
 ```
 
 Using yarn:
 
 ```bash
-yarn add @n0nb3br/react-use-scroll-sync
+yarn add @n0n3br/react-use-scroll-sync
 ```
 
 ## Usage
 
 ```tsx
 import React, { useRef } from "react";
-import { useScrollSync } from "@n0nb3br/react-use-scroll-sync";
+import { useScrollSync } from "@n0n3br/react-use-scroll-sync";
 
 const MyComponent = () => {
   const ref1 = useRef<HTMLDivElement>(null);

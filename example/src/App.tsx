@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useScrollSync } from "@n0nb3br/react-use-scroll-sync";
+import { useScrollSync } from "@n0n3br/react-use-scroll-sync";
 import "./App.css";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>@n0nb3br/react-use-scroll-sync Example</h1>
+      <h1>@n0n3br/react-use-scroll-sync Example</h1>
       <div className="scroll-grid">
         <div className="scroll-pane-container">
           <h2>Pane 1 (Default)</h2>
